@@ -92,19 +92,25 @@ export default {
 
 <style lang="stylus">
 .table-man--wrap
-  background #e3f2fd
+  background #fff
   overflow-x scroll
+  border 1px solid #ebeef5
   .table-man--table
     display table
     border-collapse collapse
     border-spacing 0
+    color #606266
     tr
       background #e3f2fd
+      background #fafafa
+      border-bottom 1px solid #ebeef5
     tr:nth-child(2n)
       background #e8f5e9
+      background #fff
     .table-man--head
       position absolute
       background #b2dfdb
+      background #fff
     .table-man--head-guest
       visibility hidden
     .table-man--cell

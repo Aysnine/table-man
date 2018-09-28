@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="logo" src="./assets/logo.png" style="height: 80px">
+    <img alt="logo" src="./assets/logo.png" style="height: 60px">
     <h1>Table Man</h1>
     <p>共 {{ headers.length }} 列，{{ dataset.length }} 行数据</p>
     <table-man
@@ -8,7 +8,7 @@
       :headers="headers"
       :fixed="[0, 2]"
       width="800px"
-      height="520px"
+      height="500px"
       custom-wrap-class="table-container"
       custom-cell-class="table-cell"
     >
@@ -56,8 +56,14 @@ export default {
   -moz-osx-font-smoothing grayscale
   text-align center
   color #2c3e50
-  margin-top 30px
+  margin-top 5px
+  h1
+    font-family sans-serif
+    font-weight 100
+    text-transform uppercase
+
 .table-container
   position relative
-  margin 16px auto
+  margin 5px auto
+  box-shadow 0 0 20px 0px #eaeaea
 </style>
