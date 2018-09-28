@@ -4,7 +4,11 @@
 
 ![preview.png](preview.png)
 
-该表格组件已经封转为单一的 vue 组件：`src/components/TableMan/index.vue`，直接复制到你的项目中，并参考 `src/App.vue` 食用 :)
+表格组件位于：`src/components/TableMan/index.vue`，可直接复制到你的项目中，并参考 `src/App.vue` 食用 :)
+
+Feature:
+- 固定列
+- ...
 
 ## Project setup
 ```
